@@ -1,10 +1,15 @@
-#include<stdio.h>
-int main(){
-    int N,i;
-    for(i=1;i<=10;i++){
-        c=i*N;
-        printf("%d X %d = %d",N,i,c);
-    }
-return 0;
+#include <stdio.h>
 
+int main() {
+    int num, i;
+    
+    // Taking input from user
+    scanf("%d", &num);
+
+    // Printing the multiplication table
+    for (i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", num, i, num * i);
+    }
+
+    return 0;
 }
